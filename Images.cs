@@ -12,6 +12,7 @@ namespace Snake
         public readonly static ImageSource Food = LoadImage("Food.png");
         public readonly static ImageSource DeadBody = LoadImage("DeadBody.png");
         public readonly static ImageSource DeadHead = LoadImage("DeadHead.png");
+        public readonly static ImageSource Block = LoadImage("Block.png");
 
         private static ImageSource LoadImage(string fileName)
         {
