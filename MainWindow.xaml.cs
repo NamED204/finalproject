@@ -105,7 +105,7 @@ namespace Snake
                 Draw();
                 if(gameState.Score %5 == 0 && gameState.Score != 0 )
                 {
-                    delay =Math.Max(50,def-(gameState.Score/5)*10);
+                    delay =Math.Min(50,def-(gameState.Score/5)*10);
                 }
             }
         }
